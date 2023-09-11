@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+#result-container, #score-container{
+    margin-top: 20px;
+    font-weight: bold;
+}
+button {
+    color:white;
+    background-color: #0d1137;
+    margin: 0.2%;
+}
+
+button:hover {
+    background-color: #e52165;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini projet | Shifumi</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/shifumi.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        
+        <h1>Shifumi</h1>
+        <p>Choisissez votre coup :</p>
+        <button onclick="play('pierre')"> <p id="coup">Pierre</p><img src="images/pierre.png" alt="Image d'une pierre"></button>
+        <button onclick="play('feuille')"> <p id="coup">Feuille</p><img src="images/feuille.png" alt="Image d'une feuille"></button>
+        <button onclick="play('ciseaux')"><p id="coup">Ciseaux</p><img src="images/ciseaux.png" alt="Image d'une paire de ciseau"></button>
+        <div id="result-container"></div>
+        <div id="score-container"></div>
+    </main>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
